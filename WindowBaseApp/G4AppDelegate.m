@@ -18,16 +18,11 @@
     [super dealloc];
 }
 
-// Window Based Application don't need such code anymore!
-//- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-//{
-//    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-//    // Override point for customization after application launch.
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    [self.window makeKeyAndVisible];
-//    NSLog(@"Application Launched");
-//    return YES;
-//}
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [self.window makeKeyAndVisible];
+    return YES;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
