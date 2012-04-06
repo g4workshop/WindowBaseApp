@@ -1,4 +1,3 @@
 这是给Xcode4.2（or higher）设计的模板，实现3.2.6所谓的Window-Based Application模板的功能。
 直接在Xcode上提交代码
-
-dsfasfsdf
+添加了一个适合iOS3.2的缺省图标
